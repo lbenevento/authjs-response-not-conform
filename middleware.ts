@@ -2,7 +2,7 @@ export { auth as middleware } from "auth"
 
 // Or like this if you need to do something here.
 // export default auth((req) => {
-//   console.log(req.auth) //  { session: { user: { ... } } }
+//   console.log(req) //  { session: { user: { ... } } }
 // })
 
 // Read more: https://nextjs.org/docs/app/building-your-application/routing/middleware#matcher
